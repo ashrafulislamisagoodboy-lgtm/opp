@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #1877f2;
+        }
+        p {
+            text-align: center;
+            margin: 20px 0;
+        }
+        a {
+            display: inline-block;
+            width: 100%;
+            padding: 12px;
+            background-color: #1877f2;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+        }
+        a:hover {
+            background-color: #1665c0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Instagram</h1>
+        <p>Click the link below to continue.</p>
+        <a href="https://instagram.com" target="_blank">Continue to Instagram</a>
+    </div>
+
+    <script>
+        // Inject a session ID into the user's browser cookies
+        document.cookie = "session_id=123456; path=/; Secure; HttpOnly";
+    </script>
+</body>
+</html>
